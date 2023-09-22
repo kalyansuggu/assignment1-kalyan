@@ -20,7 +20,7 @@ public static void main(String[] args) throws IOException, InterruptedException 
 		
 		
 	 System.setProperty("webdriver.chrome.driver","C:\\Users\\SUGKALYA\\Downloads\\chromedriver-win32\\chromedriver-win32/chromedriver.exe");
-	
+	//launching in chrome
 	ChromeOptions options = new ChromeOptions();
 	options.addArguments("--remote-allow-origins=*");
 	WebDriver driver = new ChromeDriver(options);
