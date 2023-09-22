@@ -1,0 +1,29 @@
+package testng;
+
+public class BankTransaction {
+      
+	static int balance =10000;
+	
+	void deposit(int depositamount) {
+		BankTransaction.balance=balance+depositamount;
+		
+	}
+	   void withdraw(int withdrawamount) {
+		   
+			BankTransaction.balance=balance - withdrawamount;
+
+	   }
+	   void checkbalance() {
+		   
+			BankTransaction.balance=balance;
+	   }
+	public static void main(String[] args) {
+		
+		BankTransaction gwk=new BankTransaction();
+		
+		gwk.deposit(10000);
+		gwk.withdraw(10000);
+		gwk.checkbalance();
+		
+	}
+}

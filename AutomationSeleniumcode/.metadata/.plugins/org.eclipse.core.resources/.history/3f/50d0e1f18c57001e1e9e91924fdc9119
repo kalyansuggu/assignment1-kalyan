@@ -1,0 +1,19 @@
+package xlutility;
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class AmazonURL {
+	
+	public static void main(String[] args) throws IOException, InterruptedException {
+
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\SUGKALYA\\Downloads\\chromedriver-win32\\chromedriver-win32/chromedriver.exe");
+	 
+
+
+}
+}
